@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 95%;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 90%;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(39, 39, 39);
+
+    color: rgb(255, 255, 255);
+    transition-duration: 1s;
+  }
+  
