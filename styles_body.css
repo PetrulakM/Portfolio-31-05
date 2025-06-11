@@ -5,8 +5,9 @@ body{
    flex-direction: column;
    height: 200vh;
    background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
-}
-
+  scrollbar-width: none;
+  overflow-x: hidden;
+  }
 .content{
     display: flex;
     flex-direction: row;
@@ -232,7 +233,7 @@ html{
   position: absolute;
   width: 100px;
   height: 2px;
-  background: linear-gradient(90deg, white, transparent);
+  background: linear-gradient(90deg, transparent, white);
   animation: shoot 6s infinite ease-in;
 }
 
